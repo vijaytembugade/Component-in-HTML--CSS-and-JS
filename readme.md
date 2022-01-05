@@ -12,4 +12,8 @@
 - #B55F6A - Berry
 - #19B3B1 - tiffany blue
 - #034B61 - Deep teal
-        
+
+## Images
+        ![image](https://user-images.githubusercontent.com/58331578/148201410-a8f015a5-06b9-478f-96d3-a4df26d4165e.png)
+        ![image](https://user-images.githubusercontent.com/58331578/148201466-4b93c2a1-f91e-48e6-9129-810fe9b595c3.png)
+
