@@ -1,14 +1,18 @@
-const linkName = document.querySelector('.link-name');
-const nameInput = document.querySelector(".name-input");
+const btn = document.querySelector(".btn")
+const text = document.querySelector(".text")
 
-function setName(name){
-    linkName.innerText = "Welcome, ";
-    let nameInner = document.createElement("span")
-    nameInner.innerText = name;
-    nameInner.setAttribute("class", "name")
-    linkName.appendChild(nameInner)
+let shown = true;
 
-    return nameInner
+function toggleText(){
+    if(shown){
+        btn.innerHTML = "click again to see the text 👀";
+        text.style.opacity = 0;
+    }else{
+        btn.innerHTML = "click me to hide text 🙈";
+        text.style.opacity = 1;
+    }
+    shown = !shown
 }
 
-nameInput.addEventListener("change", ()=> setName(nameInput.value))
+
+btn.addEventListener("click", ()=>toggleText())
