@@ -5,7 +5,7 @@
 - Theme selector
 - Image Gallary with key click
 
-## Every component has its own branch 
+#### Every component has its own branch 
 
 ### colors used: 
 - #E3A6A1 - blush
